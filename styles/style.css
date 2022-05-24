@@ -1,31 +1,267 @@
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+div {
+  border:1px solid red;
+}
+h1 {
+  border:1px solid red;
+}
+h2 {
+  border:1px solid red;
+}
+h3 {
+  border:1px solid red;
+}
+p {
+  border:1px solid red;
 }
 
-.header {
+
+
+
+
+/* .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-}
+} */
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
 }
+.header__link:hover {
+  opacity:1;
+}
 
-/* и элемента с модификатором вида ключ-значение */
+
+.section-title {
+  /* justify-self: center; */
+  text-align: center;
+  width:60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight:700;
+  margin: 0 auto 20px;
+}
+.section-subtitle {
+  text-align: center;
+  width:60%;
+  font-size: 24px;
+  line-height: 34px;
+  margin: auto;
+}
+
+
+
+/*****************************description*******************************/
+.description {
+  display: flex;
+  justify-content:center;
+  margin:100px 0;
+}
+.two-colums {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-self:center;
+  flex-wrap:wrap;
+  width:80%;
+}
+.two-colums__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  width: 80%;
+  min-width: 784px;
+  min-height: 408px;/*TODO reconsider this part again*/
+}
+.two-colums__brief {
+  align-self:flex-start;
+  font-size: 18px;
+  line-height: 1.2;
+  width: 175px;
+  color: #2f80ed;
+}
+.two-colums__paragraph {
+  font-size: 24px;
+  line-height: 34px;
+}
+.two-colums__span-accent {
+  font-weight:700;
+}
+/*////////////////////////////////digits////////////////////////////*/
+.digits {
+  /* display: flex;
+  flex-direction:column;
+  align-items: center; */
+  width:1100px;
+  /* justify-content:center; */
+  /* justify-self: center; */
+  margin: 100px auto;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  align-self:flex-end;
+  justify-content:space-between;
+  /* align-self:center; */
+  flex-wrap:wrap;
+}
+.table__cell {
+  margin-top: 60px;
+  width:250px;
+}
+.table__heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight:700;
+  margin: 0 0 0;
+}
+.table__text {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 20px 0 0;
+}
+/*/////////////////////////////kaufman///////////////////////////////*/
+.kaufman {
+  border:1px solid red;
+  /* margin: 0 auto; */
+  padding: 90px 0;
+  background-color: #1f1f1f;
+}
+.section-title_theme_dark {
+  color: white;
+}
+.section-subtitle_theme_dark {
+  color: white;
+  /* text-align: center;
+  width:60%;
+  font-size: 24px;
+  line-height: 34px; */
+  /* margin: auto; */
+}
+.table_theme_dark {
+  display: flex;
+  flex-direction: row;
+  align-self:flex-end;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  width:1100px;
+  margin: auto;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
+.table__heading_theme_dark {
+  /* font-size: 24px;
+  line-height: 1.15;
+  font-weight:700;
+  margin-bottom: 0px; */
+}
+.table__text_theme_dark {
+  /* font-size: 18px;
+  line-height: 1.2;
+  margin-top: 20px; */
+}
+/*////////////////////////////resources////////////////////////////////*/
+.resources {
+  /* border:1px solid red; */
+  margin: 0 auto 0;
+  padding: 100px 0 217px;
+  background-color: #f2f2f2;
+  object-position: center;
+  /* justify-self: center; */
+  /* justify-content:center; */
+}
+.resources__logo-zone {
+  margin: 80px auto 0;
+  width:1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+.resources__link {
+  width:270px;
+  height:38px ;
+  border:1px solid red;
+  background: no-repeat;
+  background-position: center;
+}
+.resources__link_source_arzamas {
+  background-image: url(../images/logo/resources-arzamas.svg);
+}
+.resources__link_source_n1 {
+  background-image: url(../images/logo/resources-n1.svg);
+}
+.resources__link_source_strelka {
+  background-image: url(../images/logo/resources-strelka.svg);
+}
+.resources__link_source_polka {
+  background-image: url(../images/logo/resources-polka.svg);
+}
+/*////////////////////////////footer////////////////////////////////*/
+.footer {
+  min-height: 350px;
+  padding: 60px 0 40px;
+  background-color: #1f1f1f;
+}
+.footer__column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  color: white;
+  margin: auto;
+}
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+.logo_place_footer{
+  border:1px solid red;
+  width: 228px;
+  height: 32px;
+  background-image: url(../images/logo_place_footer.svg);
+}
+.footer__author {
+  font: 18px;
+  line-height: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 18px 0 18px;
+}
+.footer__column-heading {
+  font: 18px;
+  line-height: 1;
+  font-weight:700;
+  margin: 0 auto 20px;
+}
+.footer__column-links {
+  font: 18px;
+  line-height: 18px;
+  margin: 0 0 16px;
+}
+.footer__social-icon {
+
+}
+.footer__column-link {
+
+}
+
