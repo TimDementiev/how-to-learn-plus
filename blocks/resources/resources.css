@@ -1,0 +1,36 @@
+.resources {
+  /* border:1px solid red; */
+  margin: 0 auto 0;
+  padding: 100px 0 217px;
+  background-color: #f2f2f2;
+  object-position: center;
+  /* justify-self: center; */
+  /* justify-content:center; */
+}
+.resources__logo-zone {
+  margin: 80px auto 0;
+  width:1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+.resources__link {
+  width:270px;
+  height:38px ;
+  border:1px solid red;
+  background: no-repeat;
+  background-position: center;
+}
+.resources__link_source_arzamas {
+  background-image: url(../images/logo/resources-arzamas.svg);
+}
+.resources__link_source_n1 {
+  background-image: url(../images/logo/resources-n1.svg);
+}
+.resources__link_source_strelka {
+  background-image: url(../images/logo/resources-strelka.svg);
+}
+.resources__link_source_polka {
+  background-image: url(../images/logo/resources-polka.svg);
+}

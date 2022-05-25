@@ -9,8 +9,6 @@
     src:
     url(../fonts/Inter-Bold.woff2) format('woff2'),
     url(../fonts/Inter-Bold.woff) format('woff');
-    /*url(https://pictures.s3.yandex.net/fonts/ubuntu.woff2) format('woff2'),
-    url(https://pictures.s3.yandex.net/fonts/ubuntu.woff) format('woff');*/
     font-family: 'Inter';
     font-weight: bold;
 }
