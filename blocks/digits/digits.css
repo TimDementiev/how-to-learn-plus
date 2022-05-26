@@ -6,6 +6,8 @@
   /* justify-content:center; */
   /* justify-self: center; */
   margin: 100px auto;
+
+  border:1px solid red;
 }
 
 .table {
