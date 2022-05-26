@@ -2,41 +2,4 @@
   display: flex;
   justify-content:center;
   padding:100px 0 0 0;
-  border:1px solid red
-}
-.two-colums {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  align-self:center;
-  flex-wrap:wrap;
-  width:80%;
-}
-.two-colums__main-text {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  width: 80%;
-  min-width: 784px;
-  /* min-height: 408px;TODO reconsider this part again */
-}
-.two-colums__brief {
-  align-self:flex-start;
-  font-size: 18px;
-  line-height: 1.2;
-  width: 175px;
-  color: #2f80ed;
-}
-.two-colums__paragraph {
-  font-size: 24px;
-  line-height: 34px;
-  margin-bottom: 30px;
-}
-.two-colums__paragraph:last-of-type {
-  margin-bottom: 0;
-}
-
-
-.two-colums__span-accent {
-  font-weight:700;
 }
