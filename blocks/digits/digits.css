@@ -5,7 +5,8 @@
   width:1100px;
   /* justify-content:center; */
   /* justify-self: center; */
-  margin: 100px auto;
+  margin: auto;
+  padding: 100px 0;
 
   border:1px solid red;
 }

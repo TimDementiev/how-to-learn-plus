@@ -1,14 +1,60 @@
 .header {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.logo_place_header {
+}
+.header__title {
+  /* border: 1px solid red; */
+  width: 730px;
+  margin-left: 64px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 700;
+  z-index: 2;
+}
+.header__subtitle {
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  z-index: 2;
+  margin: 0;
+}
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
 }
 .header__link:hover {
-  opacity:1;
+  opacity: 1;
+}
+.header__main-illustration {
+  /* border: 1px solid red; */
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.header__square-pic {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 64px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  z-index: 0;
 }
