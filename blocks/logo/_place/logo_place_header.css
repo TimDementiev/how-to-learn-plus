@@ -4,4 +4,8 @@
   left: 64px;
   z-index: 2;
   background-image: url(../../../images/logo_place_header.svg);
+  transition: opacity 0.2s ease-out ;
+}
+.logo_place_header:hover {
+  opacity: 0.6;
 }

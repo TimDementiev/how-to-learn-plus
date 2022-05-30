@@ -1,12 +1,7 @@
 .feynman {
-  /* padding: 100px 0 0; */
-  background-color: #f2f2f2;
   position: relative;
+  background-color: #f2f2f2;
   height: 790px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 600px;
-  max-height: 756px; */
-  z-index: -1;
+  /* z-index: -1; */
+  padding: 100px 0 0;
 }
