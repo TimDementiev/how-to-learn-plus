@@ -1,16 +1,14 @@
 .footer__column-link {
   display: flex;
   flex-direction: row;
-  font: 18px;
+  font-size: 18px;
   line-height: 18px;
   color: white;
   text-decoration: none;
-  margin: 0 0 10px 0;
+  margin: 0;
   transition: opacity 0.2s ease-out ;
 }
-.footer__column-link:last-of-type {
-  margin: 0 0 16px 0;
-}
+
 .footer__column-link:hover {
   opacity: 0.6;
 }

@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 
 /*HEADER*/
@@ -52,7 +53,7 @@
 /*RESOURCES*/
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__link/resources__link.css);
-@import url(../blocks/resources/__logo/resources_logo.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 
 /*FOOTER*/
@@ -66,6 +67,7 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-links-list-element/footer__column-links-list-element.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 /*TITLE*/
@@ -74,7 +76,7 @@
 
 /*SUBTITLE*/
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 /*TABLE*/
 @import url(../blocks/table/table.css);
@@ -94,7 +96,7 @@
 /*CARDS*/
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
-@import url(../blocks/cards/__image/cards_image.css);
+@import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 
